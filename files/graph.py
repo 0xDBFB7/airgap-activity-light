@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 import json
 
-frames = json.loads(open('frame_color.json').read())
+frames = json.loads(open('frame_color_2.json').read())
 
-N = 5*30
+N = 5*15
 cumsum, moving_aves = [0], []
 
 for i, x in enumerate(frames, 1):
